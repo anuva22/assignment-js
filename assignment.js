@@ -1,4 +1,4 @@
-
+//https://github.com/anuva22/assignment-js
 // 1. kilometerToMeter
 //1 k.m = 1000m.
 function kilometerToMeter(kilometer){
@@ -58,18 +58,18 @@ var name = [kiki, gigi, ninja];
 var kiki = 4;
 var gigi = 4;
 var ninja = 5;
-if(kiki > 5){
- max = kiki;
- return max;
+if(kiki >= 5){
+  var mega = kiki;
+ return mega;
 }
-else if(gigi > 5){
- max = gigi;
- return max;
+else if(gigi >= 5){
+  var mega = gigi;
+ return mega;
 }
 else{
-    max = ninja;
-    return max;
+     var mega = ninja;
+    return mega;
 }
 }
-var max = megaFriend(ninja);
+var max = megaFriend(5);
 console.log(max);
