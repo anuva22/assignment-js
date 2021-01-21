@@ -6,3 +6,5 @@ function kilometerToMeter(kilometer){
 }
 var firstMeter = kilometerToMeter(2);
 console.log(firstMeter);
+var nextMeter = kilometerToMeter(8);
+console.log(nextMeter);
