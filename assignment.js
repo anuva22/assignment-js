@@ -18,7 +18,7 @@ function budgetCalculator(totalproduct){
     var quantity2 = totalproduct * 100;
     //here laptop = 500 dolar.
     var quantity3 = totalproduct * 500;
-    var totalnum = quantity1 + quantity2 + quantity3;
+    totalnum = quantity1 + quantity2 + quantity3;
     return totalnum;
 }
 var first = budgetCalculator(1);
@@ -51,3 +51,25 @@ function hotelCost(days){
 }
 var total = hotelCost(27);
 console.log(total);
+
+//4.megaFriend
+function megaFriend(bigname){
+var name = [kiki, gigi, ninja];
+var kiki = 4;
+var gigi = 4;
+var ninja = 5;
+if(kiki > 5){
+ max = kiki;
+ return max;
+}
+else if(gigi > 5){
+ max = gigi;
+ return max;
+}
+else{
+    max = ninja;
+    return max;
+}
+}
+var max = megaFriend(ninja);
+console.log(max);
